@@ -1,0 +1,26 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 10em;
+    max-width: 100em;
+  }
+
+  .section-header {
+      padding-top: 10px;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: peru;
+  }
+
+  .property-header {
+    font-weight: bold;
+    background-color:silver;
+    padding: 2px 2px;
+  }
